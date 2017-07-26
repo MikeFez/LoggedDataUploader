@@ -4,6 +4,7 @@ I have a project that requires the periodic recording of data (in this case, tim
 Rather than mount another storage device, I opted to have the data upload directly to my server via SFTP when internet is available (I preconfigured various networks for the RPi to connect to).
 
 The way it works is as follows:
+
 	- Collect timestamped data point
 	- Wait 30 seconds (configurable)
 	- Repeat for 5 minutes (configurable)
